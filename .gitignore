@@ -1,0 +1,8 @@
+.DS store
+.psd
+.ai
+.sass-cache
+
+Artwork
+Documents
+node_modules
