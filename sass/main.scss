@@ -1,8 +1,7 @@
+@import '_vars';
 body{
     background-color:$background-color;
     color:$master-font-color;
-}
-body{
     background-image: url("../images/background.png");
 }
 p{
@@ -37,3 +36,24 @@ ul{
 .current:active{
     color: orangered;
 }
+
+/* info page */
+
+#jinkalinfo p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-transform: uppercase;
+}
+/* info page end */
