@@ -1,0 +1,39 @@
+body{
+    background-color:$background-color;
+    color:$master-font-color;
+}
+body{
+    background-image: url("../images/background.png");
+}
+p{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: orangered;
+}
+li{
+    color: white;
+    font-size: 8px;
+    text-transform: uppercase;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+footer{
+    text-decoration-line: overline;
+    text-decoration: orangered;
+}
+ul{
+    text-decoration-line: overline;
+    text-decoration: orangered;
+    list-style: none;
+}
+.current:active{
+    color: orangered;
+}
