@@ -4,11 +4,16 @@ body{
     color:$master-font-color;
     background-image: url("../images/background.png");
 }
+@font-face{
+    font-family: sitefont;
+    src: url(../fonts/LemonMilkbold.otf);
+}
 p{
     color: white;
     font-size: 12px;
     text-align: center;
     text-transform: uppercase;
+    font-family: sitfont;
 }
 h2{
     color: white;
@@ -38,13 +43,17 @@ ul{
     color: orangered;
 }
 
+#ftext{
+    font-size: 20px;
+}
+
 /* info page */
 
 #jinkalinfo p{
     font-size: 20px;
     text-align: justify;
 }
-jp:hover.image{
+#jp:hover{
     opacity: 0.3;
 }
 .centered {
@@ -64,13 +73,15 @@ jp:hover.image{
 
 h3{
     text-decoration: underline;
-    text-decoration-color: blue;
+    text-decoration-color: #034885;
     text-transform: uppercase;
 }
 
-#ac{
+
+#ac:hover{
     text-decoration: underline;
     text-decoration-color: orangered;
     text-transform: uppercase;
+    opacity: 0.3;
 }
 /* info page end */
