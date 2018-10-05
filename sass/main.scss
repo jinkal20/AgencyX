@@ -6,7 +6,7 @@ body{
 }
 p{
     color: white;
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -27,6 +27,7 @@ a{
 footer{
     text-decoration-line: overline;
     text-decoration: orangered;
+    font-size: 20px;
 }
 ul{
     text-decoration-line: overline;
@@ -43,7 +44,9 @@ ul{
     font-size: 20px;
     text-align: justify;
 }
-
+jp:hover.image{
+    opacity: 0.3;
+}
 .centered {
     position: absolute;
     top: 50%;
@@ -51,9 +54,23 @@ ul{
     transform: translate(-50%, -50%);
 }
 
+.centereda {
+    position: absolute;
+    top: 320%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
 h3{
     text-decoration: underline;
     text-decoration-color: blue;
+    text-transform: uppercase;
+}
+
+#ac{
+    text-decoration: underline;
+    text-decoration-color: orangered;
     text-transform: uppercase;
 }
 /* info page end */
